@@ -1,0 +1,6 @@
+projectKey=977cf2793cb577e8db3707a2bcb67635675d6901
+serverUrl=http://localhost:9000
+serverVersion=6.7.1.35068
+dashboardUrl=http://localhost:9000/dashboard/index/977cf2793cb577e8db3707a2bcb67635675d6901
+ceTaskId=AWfPkAssv84qBn3rQgVq
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWfPkAssv84qBn3rQgVq
