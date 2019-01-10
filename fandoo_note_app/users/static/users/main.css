@@ -685,6 +685,8 @@ a.article-title:hover {
   text-align: center;
   width: 20px;
   line-height: 18px;
+  margin-top: -16px;
+  margin-left: -83px;
 }
 
 /*.sidebar-nav li a:hover,
@@ -702,11 +704,20 @@ a.article-title:hover {
 .sidebar-nav > .sidebar-brand {
   height: 65px;
   line-height: 60px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .sidebar-nav > .sidebar-brand a {
    color: #0c0a0a;
+   margin-top: -77px;
+   margin-left: 5px;
+}
+
+@media (min-width: 768px)
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: -25px;
 }
 
 /*.sidebar-nav > .sidebar-brand a:hover {
@@ -726,6 +737,7 @@ margin-left: -39px;
     color:gray;
 
 }
+
 
 @media (max-width:767px) {
 
@@ -752,4 +764,9 @@ margin-left: -39px;
   display: inline-block;
 }
 
+}
+
+.gb_Uc{
+margin-top: 30px;
+margin-left: 4px;
 }
