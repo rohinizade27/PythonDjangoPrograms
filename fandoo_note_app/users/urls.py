@@ -6,13 +6,15 @@ from django.contrib.auth import views as auth_views
 
 
 urlpatterns = [
+     path('', views.home, name='home'),
+     path('login/', views.user_login, name='login'),
      path('register/', views.register, name='register'),
      path('profile/', views.profile, name='profile'),
 
      #path('login/', LoginView.as_view(template_name='users/login.html'), name='login'),
      #path('login/', views.loginview, name='login'),
-     path('login/', views.user_login, name='login'),
-     path('home/', views.home, name='home'),
+
+
      url(r'^activate/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$',
          views.activate, name='activate'),
      path('password-reset/',

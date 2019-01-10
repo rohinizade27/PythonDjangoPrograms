@@ -1,3 +1,4 @@
+<!--create html page for login-->
 {% extends "users/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
@@ -25,6 +26,7 @@
         <div class="border-top pt-3">
             <small class="text-muted">
                 Need An Account? <a class="ml-2" href="{% url 'register'  %}">Sign Up Now</a>
+                <a href="{% url 'password_reset' %}" class="btn btn-link">Forgot your password?</a>
 
             </small>
         </div>

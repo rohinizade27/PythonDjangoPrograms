@@ -1,8 +1,10 @@
+<!--html page for register new user -->
 {% extends "users/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
     <div class="content-section">
         <form method="POST">
+            <!--csrf token  is to protection against Cross Site Request Forgeries-->
             {% csrf_token %}
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4">Join Today</legend>

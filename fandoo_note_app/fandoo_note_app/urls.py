@@ -13,8 +13,6 @@ urlpatterns = [
     # path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
     # path('api/token/', TokenObtainPairView.as_view()),
     # path('api/token/refresh/',TokenRefreshView.as_view()),
-
-
 ]
 if settings.DEBUG:
 
